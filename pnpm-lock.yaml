@@ -1,0 +1,29 @@
+lockfileVersion: '6.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+dependencies:
+  simple-ts-lib:
+    specifier: github:rte76702/simple-ts-lib
+    version: github.com/rte76702/simple-ts-lib/4e8b6b1e38cdba12f2b9c9a205268f72dcd5dd1f
+
+devDependencies:
+  typescript:
+    specifier: ^5.2.2
+    version: 5.2.2
+
+packages:
+
+  /typescript@5.2.2:
+    resolution: {integrity: sha512-mI4WrpHsbCIcwT9cF4FZvr80QUeKvsUsUvKDoR+X/7XHQH98xYD8YHZg7ANtz2GtZt/CBq2QJ0thkGJMHfqc1w==}
+    engines: {node: '>=14.17'}
+    hasBin: true
+    dev: true
+
+  github.com/rte76702/simple-ts-lib/4e8b6b1e38cdba12f2b9c9a205268f72dcd5dd1f:
+    resolution: {tarball: https://codeload.github.com/rte76702/simple-ts-lib/tar.gz/4e8b6b1e38cdba12f2b9c9a205268f72dcd5dd1f}
+    name: simple-ts-lib
+    version: 1.0.0
+    dev: false
